@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Form Validation using Javascript</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+
+    <body >
+      <header>
+        <h1>Form Validation using Javascript</h1>
+      </header>
+      <div class="container">
+        <h3>Fill Up the Details & Validate the Form.</h3>
+        <div class="form">
+            <div class="my-form">
+                <label>First Name</label>
+                <input type="text" name="f-name" placeholder="Your Good Name" id="fname">
+                <span id="firstname" style="color:red;text-align: center;"> </span>
+            </div>
+    
+            <div class="my-form">
+                <label>Last Name</label>
+                <input type="text" name="l-name" placeholder="Your Last Name" id="lname">
+                <span id="lastname" style="color:red;text-align: center;"> </span>
+            </div>
+
+            <div class="my-form">
+                <label>Age</label>
+                <input type="text" name="age" placeholder="Your Age" id="age">
+                <span id="Agen" style="color:red;text-align:center"> </span>
+            </div>
+
+            <div class="my-form">
+             <label>Birthdate</label>
+             <input type="date" name="bdate">
+            </div>
+
+            <div class="my-form">
+                <label>Email-Address</label>
+                <input type="email" name="e-mail" placeholder="xyz@abc.com" id="email">
+                <span id="emailid" style="color:red;text-align: center;"> </span>
+               </div>
+
+            <div class="my-form">   
+                <label>Password</label>
+                <input type="password" name="password" placeholder="your-password" id="pass">
+                <span id="password" style="color:red;text-align: center;"> </span>
+            </div>
+
+            <input class="button" type="submit" value="Submit" onclick="validate()">
+            
+
+    
+          </div>
+      </div>
+      
+
+        <script src="form.js">
+        </script>
+    </body>
+</html>
